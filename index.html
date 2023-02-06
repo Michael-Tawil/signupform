@@ -17,36 +17,32 @@
     <p>Photo By Unsplash </p>
 </div>
 <div id="formcont">
-    <h3>This is not a real service! You will escape your fears if you sign up</h3>
-    <div>
-        <form action="#">
-            <h2>Let's do this!</h2>
-            <label for="fname">First Name:
-                <input type="text" name="fname" id="fname">
-            </label>
-            <label for="lname">Last Name:
-                <input type="text" name="lname" id="lname">
-            </label>
-            <br>
-            <label for="email">Email:
-                <input type="email" name="email" id="email">
-            </label>
-            <label for="number">Phone number:
-                <input type="text" name="number" id="number">
-            </label>
-            <br>
-            <label for="pass">Password:
-                <input type="password" name="pass" id="pass">
-            </label>
-            <label for="repass">Re-enter Password:
-                <input type="password" name="repass" id="repass">
-            </label>
-            <button>Submit</button>
-        </form>
-    </div>
-    <p>Already have an account? <a href="">Log in</a></p>
-</div>
+    <h1>This service is not real sign up at your own risk</h1>
+        <form id="forma"action="#" method="get">
+        <div>
+            <label for="fname">First Name</label>
+            <input  class="blue" type="text" name="fname">
 
+            <label for="lname">Last Name</label>
+            <input  class="blue" type="text" name="lname">
+
+            <label for="email">Email</label>
+            <input class="blue" type="email" name="email">
+        </div>
+        <div>
+            <label for="phonenum">Phone Number</label>
+            <input class="error" type="text" name="phonenum" required>
+
+            <label for="pass">Password</label>
+            <input class="error" type="password" name="pass" required>
+
+            <label for="repass">Re-Enter Password</label>
+            <input class="error" type="Password" name="repass" required>
+        </div>
+    </form>
+    <button form="forma" type="submit">Submit</button>
+    <p>Already Have an account ?<a href="#">Log in</a></p>
+</div>
 <script src="script.js"></script>    
 </body>
 </html>
